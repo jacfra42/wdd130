@@ -19,22 +19,40 @@ body {
 }
 
 header, main, footer {
-    width: 960px;
+    width: 1000px;
     margin: 0 auto;
 }
 
-h1, h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--primary-color);
+    padding: 40px;
 }
 
-nav, p, section, article {
-    margin: 16px;
-    padding: 8px;
+header img {
+    border: 1px solid rgb(0 0 0 / 1);
+    max-width: 200px;
 }
 
-.socialmedia a {
+.navigation {
+    display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+    align-items: center;
+}
+
+.navigation a {
+    padding: 15px;
+    color: black;
     text-decoration: none;
+    background-color: white;
+    border: 1px solid rgb(0 0 0 / 1);
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
 }
 
 .hero {
@@ -45,6 +63,11 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 h1 {
@@ -58,6 +81,27 @@ h1 {
     color: #fff
 }
 
+h2 {
+    text-align: center;
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.history {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.history img {
+    max-height: 200px;
+    width: auto;
+    padding: 20px;
+}
+
 article {
     position: absolute;
     bottom: 30px;
@@ -66,13 +110,40 @@ article {
     color: #fff;
 }
 
-.hero article img {
-    float: right;
-    width: 125px;
+.adventures {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+figure {
+    text-align: center;
+}
+
+.adventures img {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--primary-color);
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 footer img {
-    width:30px;
+    width: 30px;
+    grid-column: 3;
 }
 
-/* Edited May 22 2025 */
+footer p {
+    grid-column: 2;
+} 
+
+/* Edited May 31 2025 */
