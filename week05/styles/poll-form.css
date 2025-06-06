@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    background-color: lightblue;
+}
+
+header {
+    font-family: "Raleway";
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 1rem;
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: lightyellow;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+legend {
+    padding: 1rem;
+    font-family: "Raleway";
+    color: navy;
+    font-size: 1.3rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    vertical-align: bottom;
+    width: 22px;
+    height: 22px;
+}
+
+label[for="feedback"] {
+    text-align: center;
+}
+
+button {
+    background-color: lightcoral;
+    margin: 1rem;
+    height: 50px;
+    width: 150px;
+    font-size: 1.2rem;
+    justify-self: center;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+footer {
+    margin: 1rem 0 auto;
+    text-align: center;
+    border-top: 1px solid #000;
+    padding: 1rem;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
