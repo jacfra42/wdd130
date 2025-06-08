@@ -81,6 +81,11 @@ h1 {
     background-color: var(--accent1-color);
 }
 
+.contact-h1 {
+    position: relative;
+    padding: 30px;
+}
+
 h2 {
     text-align: center;
     padding: 1rem;
@@ -209,6 +214,7 @@ button:hover {
 .contact-info {
     display: flex;
     justify-content: space-around;
+    padding: 3rem;
 }
 
 .staff {
