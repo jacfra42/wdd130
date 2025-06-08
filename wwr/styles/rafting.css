@@ -83,6 +83,7 @@ h1 {
 
 h2 {
     text-align: center;
+    padding: 1rem;
 }
 
 nav, p, section, article {
@@ -153,4 +154,73 @@ footer p {
     text-align: center;
 } 
 
-/* Edited May 31 2025 */
+.contacts {
+    padding: 1rem;
+    color: var(--accent2-color);
+}
+
+form {
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+    color: var(--accent2-color);
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+textarea::placeholder {
+    color: var(--accent1-color);
+}
+
+button {
+    background-color: var(--accent1-color);
+    margin: 1rem;
+    height: 50px;
+    width: 150px;
+    font-size: 1.2rem;
+    justify-self: center;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.wireframe {
+    background-color: var(--accent1-color);
+    width: 100px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.staff {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.staff img {
+    border: 1px solid rgb(0 0 0 / 0.1);
+    width: 200px;
+    height: 200px;
+}
+
+/* Edited June 7 2025 */
