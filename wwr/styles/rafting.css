@@ -229,4 +229,86 @@ button:hover {
     height: 200px;
 }
 
-/* Edited June 7 2025 */
+.action {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.action img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(0 0 0 / 0.1);
+}
+
+.action a {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    color: var(--accent1-color);
+    background-color: var(--secondary-color);
+    border: 1px solid rgb(0 0 0 / 1);
+    display: grid;
+    place-items: center;
+    font-size:xx-large;
+    text-decoration: none;
+}
+
+.hero form {
+    position: absolute;
+    bottom: 15px;
+    left: 280px;
+    align-self: center;
+    background-color: var(--accent1-color);
+    opacity: 0.8;
+}
+
+.action p {
+    font-size: x-large;
+    color: var(--primary-color);
+}
+
+table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin: 20px auto; 
+    font-family: var(--body-font);
+}
+
+th {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    color: var(--secondary-color);
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.rivers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rivers img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(0 0 0 / 0.1);
+}
+
+.rivers p {
+   padding: 5px;
+   width: 275px;
+   color: var(--secondary-color);
+}
+/* Edited June 14 2025 */
